@@ -1,0 +1,9 @@
+check,status,detail
+V1 pytorch_default collapses at depth 26,PASS,11.35%
+V2 he/xavier survive at depth 26,PASS,"he 96.97%, xavier 96.77%"
+V3 depth-10 control: all schemes train,PASS,min 96.85%
+V4 healthy runs travel >=3x further than dead,PASS,23.2 vs 3.3 (7.1x)
+V5 dead runs are frozen at init (wd=0),PASS,mean|W| changed 0.999x
+V6 Mirsky bound: d_aligned >= D_spec,PASS,0 violations of 42 pairs
+V7 no permutation drift within a run,PASS,"0.0000 moved, 0.00% reduction"
+V8 alignment does matter across runs,PASS,"10.99% reduction, 0.914 moved"

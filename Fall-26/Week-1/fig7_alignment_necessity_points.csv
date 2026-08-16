@@ -1,0 +1,5 @@
+pair_class,red,red_sd,moved,moved_sd,n
+"consecutive epochs
+(same run)",0.0,0.0,0.0,0.0,60
+"trained models
+(different seeds)",10.994304697008833,0.6935401455473378,0.9143005952380951,0.017176389807391855,21

@@ -1,0 +1,15 @@
+# Raw weight snapshots (~1 GB, 742 files) -- regenerate deterministically from fixed seeds.
+# The notebook is resume-safe: it recreates these on first Run All (~25 min CPU).
+snapshots/
+snapshots_untrained/
+
+# MNIST downloads here on first run
+data/
+
+# build artifacts
+__pycache__/
+*.aux
+*.log
+*.out
+exec.log
+.ipynb_checkpoints/

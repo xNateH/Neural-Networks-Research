@@ -1,0 +1,9 @@
+fig_file,points_file,description,n_points
+fig1_single_run_trajectory.png,fig1_single_run_trajectory_points.csv,Single-run weight trajectory and per-epoch step length,11
+fig2_pooled_absolute.png,fig2_pooled_absolute_points.csv,"Pooled absolute embedding, arch A",231
+fig3_pooled_displacement.png,fig3_pooled_displacement_points.csv,"Pooled displacement embedding, arch A",231
+fig4_distance_to_minima.png,fig4_distance_to_minima_points.csv,Distance from each init to the trained reference,7
+fig5_radial_confound.png,fig5_radial_confound_points.csv,Radial (scale) confound before and after null-normalisation,14
+fig6_invariant_crosscheck.png,fig6_invariant_crosscheck_points.csv,Permutation-invariant metrics vs D_norm and vs outcome,7
+fig7_alignment_necessity.png,fig7_alignment_necessity_points.csv,Permutation drift within a run vs across runs,2
+fig8_sanity_checks.png,fig8_sanity_checks_points.csv,Behavioural sanity checks at depth 26 and depth 10,7
